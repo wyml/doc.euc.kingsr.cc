@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EUC - 易语言统一模块管理器</title>
+    <link rel="stylesheet" href="https://unpkg.com/docute@4/dist/docute.css">
+</head>
+
+<body>
+    <div id="docs"></div>
+    <script src="https://unpkg.com/docute@4/dist/docute.js"></script>
+    <script>
+        new Docute({
+            target: '#docs',
+            title: 'EUC - 易语言统一模块管理器',
+            layout: 'wide',
+            darkThemeToggler: true,
+            // router: {
+            //     mode: 'history'
+            // },
+            //editLinkBase: '/',
+            nav: [{
+                title: '首页',
+                link: '/'
+            }, {
+                title: '下载',
+                link: 'download'
+            }],
+            sidebar: [{
+                title: '指南',
+                children: [{
+                    title: '介绍',
+                    link: '/'
+                }, {
+                    title: '安装',
+                    link: '/guide/install'
+                }, {
+                    title: '快速上手',
+                    link: '/guide/getting-started'
+                }]
+            }]
+        })
+    </script>
+</body>
+
+</html>
